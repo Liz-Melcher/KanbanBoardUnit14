@@ -1,5 +1,20 @@
 # 14 Full-Stack React: Kanban Board
 
+## GitHub Repository: 
+
+## Render Deployed Page: 
+
+## Description: 
+This project involves adding authentication with JSON Web Tokens (JWT) to an existing Kanban board application. The assignment is to complete the login UI, implement secure JWT-based authentication on the server, and deploy the full app to Render. The goal is to ensure only authenticated users can access and manage tasks on the Kanban board.
+
+## License:  
+MIT License on GitHub
+
+## Contributing: 
+There was starter code for this project.  The starter code is described more fully in the original read me which is copied below. 
+
+
+
 ## Your Task
 
 Authentication with JSON Web Tokens (JWTs) is crucial for full-stack applications, as it provides a secure and scalable method for verifying user identities. JWTs are compact, URL-safe tokens that encode a user's authentication data, allowing servers to authenticate requests. Additionally, JWTs can include metadata and be easily verified and decoded, enhancing security while enabling seamless authentication across various parts of an application.
