@@ -7,6 +7,10 @@
 ## Description: 
 This project involves adding authentication with JSON Web Tokens (JWT) to an existing Kanban board application. The assignment is to complete the login UI, implement secure JWT-based authentication on the server, and deploy the full app to Render. The goal is to ensure only authenticated users can access and manage tasks on the Kanban board.
 
+## Installation: 
+Run npm i to install dependencies
+There should be .env file in server/.env with the database username, password, and JWT secret key 
+
 ## License:  
 MIT License on GitHub
 
