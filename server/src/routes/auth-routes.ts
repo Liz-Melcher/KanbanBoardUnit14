@@ -7,7 +7,7 @@ export const login = async (req: Request, res: Response) => {
   
   // TODO: If the user exists and the password is correct, return a JWT token
   const { username, password } = req.body;  // Extract username and password from request body
-  console.log('Login attempt:', username, password);
+  
 
   // Find the user in the database by username
   const user = await User.findOne({
