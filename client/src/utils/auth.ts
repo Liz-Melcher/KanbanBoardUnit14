@@ -4,7 +4,7 @@ class AuthService {
   getProfile() {
     // TODO: return the decoded token
     const token = this.getToken();
-    if (!token) return null;
+    if (!token || this.isTokenExpired(token)) return null;
 
     try {
       return jwtDecode<JwtPayload & { username?: string }>(token);
@@ -18,7 +18,7 @@ class AuthService {
   loggedIn() {
     // TODO: return a value that indicates if the user is logged in
     const token = this.getToken();
-    return token;
+    return !!token && !this.isTokenExpired(token); // return true only if token exists and is not expired
   }
   
   isTokenExpired(token: string) {
